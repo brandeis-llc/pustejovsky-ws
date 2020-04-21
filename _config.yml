@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/foobar"
+baseurl: "/pustejovsky-ws"
 url: "https://pustejovsky.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
