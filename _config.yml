@@ -86,6 +86,8 @@ permalink:   /:categories/:title/
 
 # Amount of post to show on home page
 paginate: 5
+# paginated page
+paginate_path: /updates/page:num/
 
 # if true, shows the floatting share buttons
 float_share: true
