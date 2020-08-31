@@ -72,7 +72,7 @@ figure.center img{
   margin-bottom: 20px;
   padding: 8px 20px;
   @include font-rem(14);
-  background-color: $primary;
+  background-color: $menu-overflow;
   color: $white;
   border-width: 2px !important;
   border-style: solid !important;
@@ -83,7 +83,7 @@ figure.center img{
   }
   &:hover {
     background-color: $white;
-    color: $primary;
+    color: $black;
   }
 }
 .btn-inverse {

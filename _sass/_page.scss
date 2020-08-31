@@ -471,8 +471,13 @@ ul.social-buttons li a:active {
 	overflow: hidden;
 	height: 50px;
 	@media #{$medium} {
-		background-color: $header-color;
-		min-height: 300px;
+        // background-color: $header-color;
+		min-height: 220px;
+		background-image: url($header-bg);
+		background-repeat: no-repeat;
+		background-position: bottom -1px center;
+		border-top: solid;
+		border-bottom: solid;
 	}
 }
 .header-toggle{
