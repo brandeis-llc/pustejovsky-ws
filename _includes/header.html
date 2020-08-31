@@ -31,13 +31,17 @@
           <li class="header-item {{class}}"><a href="{{site.url}}{{menu.url}}"><h3>{{ menu.title }}</h3></a>
             <ul class="header-submenu">
               {% for sub in menu.submenu %}
-                <li class="sub-item"><a href="{{site.url}}{{sub.url}}">{{sub.title}}</a></li>
+                {% if sub.url contains 'http://' or sub.url contains 'https://' %}
+                <li class="sub-item"><a href="{{sub.url}}" target="_blank"><h3>{{ sub.title }}&nbsp;&#x25e5;</h3></a></li>
+                {% else %}
+                <li class="sub-item"><a href="{{site.url}}{{sub.url}}"><h3>{{ sub.title }}</h3></a></li>
+                {% endif %}
               {% endfor %}
             </ul>
           </li>
         {% else %}
             {% if menu.url contains 'http://' or menu.url contains 'https://' %}
-                <li class="header-item {{class}}"><a href="{{menu.url}}" target="_blank"><h3>{{ menu.title }}</h3></a></li>
+                <li class="header-item {{class}}"><a href="{{menu.url}}" target="_blank"><h3>{{ menu.title }}&#x1F517;</h3></a></li>
             {% else %}
                 <li class="header-item {{class}}"><a href="{{site.url}}{{menu.url}}"><h3>{{ menu.title }}</h3></a></li>
             {% endif %}

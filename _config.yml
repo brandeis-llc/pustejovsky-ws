@@ -1,9 +1,9 @@
-title:            Blog Title
-description:      Describe your website here.
+title:            James Pustejovsky
+description:      James Pustejovsky's Website
 
 # put your disqus here
 disqus_shortname:
-reading_time:     true # if true, shows the estimated reading time for a post
+reading_time:     false # if true, shows the estimated reading time for a post
 words_per_minute: 200
 logo:             images/logo.png # logo visible in the topbar
 excerpt_separator: <!--more-->
@@ -18,36 +18,52 @@ url: http://aronbordin.com/neo-hpstr-jekyll-theme
 #   To create sub categories. add a submenu item
 # See the example
 menu:
-  - title: 'Home'
-    url: '/'
-  - title: 'Fork'
-    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme'
-  - title: 'Install'
-    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme#installation'
-  - title: 'Tags'
-    url: '/tags'
-  - title: 'Categories'
-    url: '/categories'
-    type: 'categories'
-  - title: 'Favorites'
-    url: '#'
+#  - title: 'Home'
+#    url: '/'
+  - title: 'NEWS & UPDATES'
+    url: '/updates'
+  - title: 'PUBLICATIONS'
     submenu:
-      - title: 'Code Highlighter'
-        url: '/intro/code-highlighting-post/'
-      - title: 'Sample Post'
-        url: '/intro/sample-post/'
+      - title: 'Books'
+        url: '/books'
+      - title: 'Journal Articles'
+        url: '/articles'
+      - title: 'Book Chapters'
+        url: '/chapters'
+      - title: 'Encyclopedia Entries'
+        url: '/encyclopedia'
+      - title: 'Conference Proceedings'
+        url: '/conferences'
+  - title: 'COURSES'
+    url: '/courses'
+  - title: 'RESEARCH'
+    url: '/research'
+  - title: 'LINKS'
+    submenu:
+      - title: 'TimeML'
+        url: 'http://www.timeml.org/'
+      - title: 'MA Programs in CL'
+        url: 'http://www.brandeis.edu/programs/comp-linguistics/'
+      - title: 'ISO-Space'
+        url: 'https://sites.google.com/site/wikiisospace/'
+      - title: 'CS at Brandeis'
+        url: 'http://www.cs.brandeis.edu/'
+  - title: 'SPECIAL COURSES'
+    submenu:
+      - title: 'EACL 2017'
+        url: 'http://www.voxicon.net/eacl-2017/eacl-2017-tutorial-materials/'
 
 # Owner/author information
 owner:
-  name:           Your name
-  site:           http://aronbordin.com
+  name:           James Pustejovsky
+  site:           http://pusto.com
   avatar:         images/avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  bio:            "Computational Linguistics focuses on the study of language from a computational perspective. This dynamic field draws on artificial intelligence, computational and formal logic, linguistics, as well as philosophy, cognitive science, and psychology."
+  email:          jamesp@brandeis.edu
   # Twitter nick for use in Twitter cards and follow button.
-  twitter: aron_bordin # if no twitter in this config, the twitter follow button will be removed
+  twitter: # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
-  github: aron-bordin
+  github:
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
@@ -55,12 +71,12 @@ twitter:
 
 # Social networking links used in author block underneath posts. Update and remove as you like.
 social:
-  - title: "github"
-    url: "https://github.com/aron-bordin"
-  - title: "linkedin"
-    url: "https://br.linkedin.com/in/aronbordin"
-  - title: "youtube"
-    url: "https://www.youtube.com/channel/UCfnSek-9HPWOx5e2pH7VFgg"
+#  - title: "github"
+#    url: "https://github.com/aron-bordin"
+#  - title: "linkedin"
+#    url: "https://br.linkedin.com/in/aronbordin"
+#  - title: "youtube"
+#    url: "https://www.youtube.com/channel/UCfnSek-9HPWOx5e2pH7VFgg"
 
 # Background image to be tiled on all pages
 background:
@@ -90,7 +106,7 @@ paginate: 5
 paginate_path: /updates/page:num/
 
 # if true, shows the floatting share buttons
-float_share: true
+#float_share: true
 
 # Octopress
 # Default extensions
