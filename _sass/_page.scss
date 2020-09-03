@@ -480,6 +480,11 @@ ul.social-buttons li a:active {
 		border-bottom: solid;
 	}
 }
+.entry-header-pubs {
+	@media #{$medium} {
+		background-image: url($header-pubs-bg);
+	}
+}
 .header-toggle{
 	display: block;
 	@media #{$large} {

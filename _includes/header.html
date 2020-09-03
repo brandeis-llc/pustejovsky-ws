@@ -53,7 +53,11 @@
       <li class="header-item"><a href="{{site.url}}/search"><h3><i class="fa fa-search"></i></h3></a></li>
     </ul>
   </div>
+{% if page.categories contains "pubs" %}
+<div class="entry-header-pubs entry-header">
+{% else %}
 <div class="entry-header">
+{% endif %}
   <div class="header-title">
     <div class="header-title-wrap">
       <h1>{{ page.title }}</h1>
